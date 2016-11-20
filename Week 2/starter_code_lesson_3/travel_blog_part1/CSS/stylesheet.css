@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 50px;
+	font-family: 'Lato', sans-serif;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 a {
+	color:#F9D483;
+	font-size: 60px;
+	text-decoration: none;
+	display: inline;
+}
+
+h2 a {
+	color: #000000;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+#header {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	padding-right: 10px;
+	color: #605f5f;
+}
+
+h3 {
+	color: #D2D2D2;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+h4 a { 
+	color:#F9D483;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+}
+
+h4{
+	text-align: right;
+}
+
+#navbar a {
+	background-color: #605f5f;
+	color: white;
+	border: 1px solid white;
+	font-family: 'Lato', sans-serif;
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+	width: 16.3%;
+	text-align: center;
+}
+
+footer {
+	color: #D2D2D2;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	clear: both;
+}
+
+footer a {
+	color: #F9D483;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+
+section p::first-letter { 
+  color: #D2D2D2;
+  font-size: 700%;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  padding-right: 10px;
+}
+
+hr {
+	color: #D2D2D2;
+	border: solid thin #D2D2D2;
+}
+
+img {
+	max-width: 100%;
+}
+
+aside {
+      width: 30%;
+      float: right;
+}
+
+aside img {
+	max-width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+aside h4 {
+	color: #605f5f;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.module p {
+	text-decoration: none;
+}
+
+aside a {
+	color: #F9D483;
+}
+
+section {
+      width: 65%;
+      float: left;
+      padding-right: 5%;
+}
+
+.more {
+	text-align: right;
+}
+
+.clear {
+  float: both;
+}
+
+.clearfix: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+/*need to figure out spacing on entire page! aka images centered and sized, font set to a box*/
+
+
+
+
+
+
