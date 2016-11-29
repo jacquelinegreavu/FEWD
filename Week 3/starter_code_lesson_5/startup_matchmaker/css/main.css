@@ -1,0 +1,225 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+/*   border: 1px solid red; */
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    White - #ffffff;
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDB0D
+    Red - #FF0121
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3C3A3A;
+    background: url("images/coworking.jpg");
+  }
+
+  /* Set some defaults! font-family, font-size, color, etc. */
+   /* Fonts:
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;*/
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+
+a { 
+    text-decoration: none;
+    color: #ffffff;
+  /* Set some default styles for anchors (color, text decoration) */
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Merriweather', serif;
+  margin: 0px;
+
+}
+
+.tagline {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  background-color: #D4E1DB;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  border-top: solid 4px #FEDB0D;  
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+.info-left { 
+  float: left; width: 33%; 
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: solid 1px #D4E1DB;
+}
+
+.info-right { 
+  float: right; width: 33%; 
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.info-center { 
+  display: inline-block; width: 33%; 
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: solid 1px #D4E1DB;
+}
+
+section.banner {
+  float: right;
+  width: 40%;
+  border: solid 1px #3C3A3A;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 30px;
+  /*opacity: 0.6;*/
+}
+
+section.banner p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #3C3A3A;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+section.banner a {
+  text-align: center;
+  color: #ffffff;
+  background-color: #FF0121;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 33%;
+  padding-left: 33%;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+}
+
+section.columns {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+section.columns p {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 95%;
+}
+
+/* Header
+   ================================================================ */
+
+header {
+  background-color: #3C3A3A;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#navbar {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  color: #ffffff;
+  float: right;
+  font-size: 20px;
+}
+
+h1 { 
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    display: inline-block;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+  display: inline;
+}
+
+/* Footer
+   ================================================================ */
+
+footer {
+  background-color: #3C3A3A;
+  text-align: left;
+  padding: 10px;
+
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+
+/* Navigation
+   ================================================================ */
+
+header nav a {
+  float: right;
+  display: inline;
+  padding: 20px;
+}
+
+.clearfix: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Buttons
+   ================================================================ */
+
+  .button {
+    float: none;
+    border: solid #D4E1DB 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30%;
+    padding-left: 30%;
+    background-color: #D4E1DB;
+    border-bottom: solid 2px #D4E1DB;
+    font-family: 'Oswald', sans-serif;
+    color: #3C3A3A;
+    width: 95%;
+  }
