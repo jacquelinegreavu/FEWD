@@ -34,7 +34,10 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #3C3A3A;
-    background: url("images/coworking.jpg");
+    background-image: url(../images/coworking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
   }
 
   /* Set some defaults! font-family, font-size, color, etc. */
@@ -103,7 +106,7 @@ section.banner {
   padding: 20px;
   background-color: #ffffff;
   margin: 30px;
-  /*opacity: 0.6;*/
+  opacity: 0.8;
 }
 
 section.banner p {
@@ -130,15 +133,23 @@ section.banner a {
 
 section.columns {
   display: inline-block;
-  margin: 20px;
-  padding: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
 }
 
 section.columns p {
   display: inline-block;
-  padding-top: 20px;
   padding-bottom: 20px;
   width: 95%;
+  background-color: #ffffff;
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+section.columns h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
 }
 
 /* Header
@@ -182,6 +193,7 @@ footer {
   background-color: #3C3A3A;
   text-align: left;
   padding: 10px;
+  margin-bottom: 0px;
 
 }
 
